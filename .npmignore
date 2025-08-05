@@ -1,0 +1,14 @@
+node_modules/
+src/
+tsconfig.json
+package-lock.json
+.env
+.gitignore
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage/
+*.ts
+*.tsx
+!*.d.ts

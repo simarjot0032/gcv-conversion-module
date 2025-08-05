@@ -1,0 +1,38 @@
+{
+  "name": "ogv-conversation-package",
+  "version": "1.0.0",
+  "description": "A lightweight, framework-agnostic TypeScript utility for converting 3D model files using BRL-CAD's gcv tool via API — uploads a file, sends it to your backend for conversion, and automatically triggers a download. Works in any JS/TS frontend.",
+  "homepage": "https://github.com/simarjot0032/OGV-conversation-package#readme",
+  "bugs": {
+    "url": "https://github.com/simarjot0032/OGV-conversation-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simarjot0032/OGV-conversation-package.git"
+  },
+  "license": "ISC",
+  "author": "Simarjot Singh",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  }
+}

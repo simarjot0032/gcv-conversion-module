@@ -1,2 +1,2 @@
-# ogv-conversation-package
+# OGV-conversation-package
 A lightweight, framework-agnostic TypeScript utility for converting 3D model files using BRL-CAD’s gcv tool via API — uploads a file, sends it to your backend for conversion, and automatically triggers a download. Works in any JS/TS frontend.
