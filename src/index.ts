@@ -1,1 +1,2 @@
-export { ConvertFile } from "./Conversion";
+export { ConvertFile } from "./helpers/ConvertFile";
+export * from "./types";

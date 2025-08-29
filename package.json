@@ -32,7 +32,11 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@types/archiver": "^6.0.3",
     "@types/node": "^24.2.0",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
   }
 }
