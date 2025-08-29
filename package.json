@@ -1,7 +1,7 @@
 {
   "name": "ogv-conversation-package",
   "version": "1.0.0",
-  "description": "A lightweight, framework-agnostic TypeScript utility for converting 3D model files using BRL-CAD's gcv tool via API — uploads a file, sends it to your backend for conversion, and automatically triggers a download. Works in any JS/TS frontend.",
+  "description": "A lightweight Node.js/TypeScript utility to validate, convert, and zip 3D model files using the **BRL-CAD `gcv` tool. This package is designed for use in backend frameworks like NestJS or Express.",
   "homepage": "https://github.com/simarjot0032/OGV-conversation-package#readme",
   "bugs": {
     "url": "https://github.com/simarjot0032/OGV-conversation-package/issues"
