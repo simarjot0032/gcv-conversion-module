@@ -1,14 +1,14 @@
 {
-  "name": "ogv-conversation-package",
+  "name": "gcv-conversion-module",
   "version": "1.0.0",
   "description": "A lightweight Node.js/TypeScript utility to validate, convert, and zip 3D model files using the **BRL-CAD `gcv` tool. This package is designed for use in backend frameworks like NestJS or Express.",
-  "homepage": "https://github.com/simarjot0032/OGV-conversation-package#readme",
+  "homepage": "https://github.com/simarjot0032/gcv-conversion-module#readme",
   "bugs": {
-    "url": "https://github.com/simarjot0032/OGV-conversation-package/issues"
+    "url": "https://github.com/simarjot0032/gcv-conversion-module/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simarjot0032/OGV-conversation-package.git"
+    "url": "git+https://github.com/simarjot0032/gcv-conversion-module.git"
   },
   "license": "ISC",
   "author": "Simarjot Singh",
