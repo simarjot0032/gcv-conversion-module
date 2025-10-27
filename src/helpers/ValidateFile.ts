@@ -1,4 +1,4 @@
-import { InputFormats, MIME_Types, OutputFormats } from "../types/FileFormats";
+import { InputFormats, OutputFormats } from "../types/FileFormats";
 import { FileRequest } from "../types/FileRequest";
 import { FileValidationResults } from "../types/FileResults";
 
@@ -15,12 +15,6 @@ export const ValidateFile = (file: FileRequest): FileValidationResults => {
     return {
       success: false,
       error: "File name is required",
-    };
-  }
-  if (!file.fileMimeType) {
-    return {
-      success: false,
-      error: "File mime type is required",
     };
   }
   if (!file.outputPath) {
@@ -41,14 +35,6 @@ export const ValidateFile = (file: FileRequest): FileValidationResults => {
       error: "Invalid file extension",
     };
   }
-  const expectedMimeType = MIME_Types[fileExtension];
-  if (expectedMimeType && file.fileMimeType !== expectedMimeType) {
-    return {
-      success: false,
-      error: `File mime type does not match file extension. Expected: ${expectedMimeType}, Got: ${file.fileMimeType}`,
-    };
-  }
-
   const outputFormats = Array.isArray(file.outputFormat)
     ? file.outputFormat
     : [file.outputFormat];
